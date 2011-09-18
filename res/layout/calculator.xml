@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:fillViewport="true">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<TextView android:text="@string/buyIn_label" android:id="@+id/textView2"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginTop="15dip" android:layout_marginLeft="15dip"
+			android:layout_marginRight="15dip" />
+
+		<EditText android:layout_height="wrap_content" android:id="@+id/editText2"
+			android:layout_width="fill_parent" android:inputType="number"
+			android:layout_marginLeft="15dip" android:layout_marginRight="15dip"
+			android:maxLength="9" android:text="10" />
+
+		<TextView android:text="@string/players_label" android:id="@+id/textView1"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginLeft="15dip" android:layout_marginRight="15dip" />
+
+		<EditText android:layout_height="wrap_content" android:id="@+id/editText1"
+			android:layout_width="fill_parent" android:inputType="number"
+			android:layout_marginRight="15dip" android:layout_marginLeft="15dip"
+			android:maxLength="4" android:text="7" />
+
+		<TextView android:text="@string/finalPosition_label" android:id="@+id/textView3"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginLeft="15dip" android:layout_marginRight="15dip" />
+
+		<EditText android:layout_height="wrap_content" android:id="@+id/editText3"
+			android:layout_width="fill_parent" android:inputType="number"
+			android:layout_marginLeft="15dip" android:layout_marginRight="15dip"
+			android:maxLength="3" android:text="1" />
+
+		<TextSwitcher android:id="@+id/switcher"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		</TextSwitcher>
+
+		<Button android:text="@string/button_count" android:id="@+id/button1"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_margin="15dip" />
+
+		<Button android:text="@string/button_scoreboard" android:id="@+id/button2"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_margin="15dip" />
+
+	</LinearLayout>
+
+</ScrollView>

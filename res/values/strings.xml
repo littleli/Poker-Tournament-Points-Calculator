@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calculator_name">Poker Tournament Points Calculator</string>
+    <string name="buyIn_label">Buy In</string>
+    <string name="players_label">Number of players</string>
+    <string name="finalPosition_label">Final position</string>
+    <string name="button_count">Count!</string>
+    <string name="button_scoreboard">See Score Board</string>
+    <string name="scoreboard_name">Score Board</string>
+    <string name="scoreboard_position">Position</string>
+    <string name="scoreboard_points">Points</string>
+    <string name="validation_buyIn">Buy In value has to be more than 0</string>
+    <string name="validation_buyIn_empty">Buy In has to be filled</string>
+    <string name="validation_playersCount">Number of players has to be higher than 6</string>
+    <string name="validation_playersCount_empty">Number of players has to be filled</string>
+    <string name="validation_finalPosition">Final position has to be equal or less than number of players</string>
+    <string name="validation_finalPosition_empty">Final position has to be filled</string>
+</resources>

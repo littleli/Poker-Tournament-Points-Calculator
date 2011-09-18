@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scroller" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:fillViewport="true">
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:stretchColumns="1" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/top"
+		android:scrollbars="vertical">
+
+		<TableRow>
+			<TextView 
+				android:text="@string/scoreboard_position" 
+				android:padding="20dip"				
+				android:textStyle="bold" 
+				android:textSize="28dip"
+				android:gravity="left"/>
+			<TextView 
+				android:text="@string/scoreboard_points" 
+				android:padding="20dip"
+				android:textStyle="bold" 
+				android:textSize="28dip"
+				android:gravity="right"/>
+		</TableRow>
+
+		<View android:layout_height="2dip" android:background="#FF909090"
+			android:id="@+id/hrule" />
+
+	</TableLayout>
+
+</ScrollView>
