@@ -15,4 +15,6 @@
     <string name="validation_playersCount_empty">Number of players has to be filled</string>
     <string name="validation_finalPosition">Final position has to be equal or less than number of players</string>
     <string name="validation_finalPosition_empty">Final position has to be filled</string>
+    <string name="help_name">Help</string>
+    <string name="about_name">About</string>    
 </resources>

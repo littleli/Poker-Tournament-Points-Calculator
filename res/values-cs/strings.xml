@@ -15,4 +15,6 @@
     <string name="validation_playersCount_empty">Počet hráčů musí být vyplněn</string>
     <string name="validation_finalPosition">Konečné umístění musí být menší nebo rovno počtu hráčů</string>
     <string name="validation_finalPosition_empty">Konečné umístění musí být vyplněno</string>
+    <string name="help_name">Nápověda</string>
+    <string name="about_name">O aplikaci</string>
 </resources>
