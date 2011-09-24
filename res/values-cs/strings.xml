@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="calculator_name">Poker kalkulátor turnajových bodů</string>
+    <string name="calculator_name">Poker Tour kalkulátor</string>
     <string name="buyIn_label">Buy In</string>
     <string name="players_label">Počet hráčů</string>
     <string name="finalPosition_label">Konečné umístění</string>

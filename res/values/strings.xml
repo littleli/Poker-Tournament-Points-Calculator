@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="calculator_name">Poker Tournament Points Calculator</string>
+    <string name="calculator_name">Poker Tour Calculator</string>
     <string name="buyIn_label">Buy In</string>
     <string name="players_label">Number of players</string>
     <string name="finalPosition_label">Final position</string>

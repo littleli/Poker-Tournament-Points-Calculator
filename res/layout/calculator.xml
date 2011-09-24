@@ -15,7 +15,7 @@
 		<EditText android:layout_height="wrap_content" android:id="@+id/editText2"
 			android:layout_width="fill_parent" android:inputType="number"
 			android:layout_marginLeft="15dip" android:layout_marginRight="15dip"
-			android:maxLength="9" android:text="10" />
+			android:maxLength="9" android:text="300" />
 
 		<TextView android:text="@string/players_label" android:id="@+id/textView1"
 			android:layout_width="fill_parent" android:layout_height="wrap_content"
