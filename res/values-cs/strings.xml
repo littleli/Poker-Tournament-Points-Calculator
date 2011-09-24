@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="calculator_name">Poker kalkulátor turnajových bodů</string>
-    <string name="buyIn_label">Vstupné</string>
+    <string name="buyIn_label">Buy In</string>
     <string name="players_label">Počet hráčů</string>
     <string name="finalPosition_label">Konečné umístění</string>
     <string name="button_count">Spočítat!</string>
@@ -9,12 +9,21 @@
     <string name="scoreboard_name">Výsledková listina</string>
     <string name="scoreboard_position">Pozice</string>
     <string name="scoreboard_points">Body</string>
-    <string name="validation_buyIn">Vstupné musí být větší než 0</string>
-    <string name="validation_buyIn_empty">Vstupné musí být zadáno</string>
+    <string name="validation_buyIn">Buy in musí být větší než 0</string>
+    <string name="validation_buyIn_empty">Buy in musí být zadán</string>
     <string name="validation_playersCount">Počet hráčů musí být větší než 6</string>
     <string name="validation_playersCount_empty">Počet hráčů musí být vyplněn</string>
     <string name="validation_finalPosition">Konečné umístění musí být menší nebo rovno počtu hráčů</string>
     <string name="validation_finalPosition_empty">Konečné umístění musí být vyplněno</string>
     <string name="help_name">Nápověda</string>
     <string name="about_name">O aplikaci</string>
+    <string name="about_authors_title">Autoři:</string>
+    <string name="about_authors">Aleš Najmann, ales.najmann@gmail.com\nLukáš Karásek</string>    
+    <string name="help_title1">Body se počítají podle vzorce:</string>
+    <string name="help_title2">
+    		B - základní body.\n\nPro turnaje s buy-in od 1000 CZK se vynásobí koeficientem B - 20.\nPro turnaje s buy-in do 999 CZK se vynásobí koeficientem B - 10.\n\n
+    		A - buy-in\n\n
+			H - počet hráčů\n\n
+			P - umístění
+	</string>    
 </resources>

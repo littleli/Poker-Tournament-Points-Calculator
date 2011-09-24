@@ -16,5 +16,15 @@
     <string name="validation_finalPosition">Final position has to be equal or less than number of players</string>
     <string name="validation_finalPosition_empty">Final position has to be filled</string>
     <string name="help_name">Help</string>
-    <string name="about_name">About</string>    
+    <string name="about_name">About</string>
+    <string name="about_authors_title">Authors:</string>
+    <string name="about_authors">Aleš Najmann, ales.najmann@gmail.com\nLukáš Karásek</string>    
+    <string name="help_title1">Points are calculated by following formula:</string>
+    <string name="help_title2">
+    		B - Basic points.\n\nFor tournaments with buy-in starting from 1000 CZK it\'s multiplied by B - 20.\nFor tournaments with buy-in limited by 999 CZK it\'s multiplied by B - 10.\n\n
+    		A - Buy-in\n\n
+			H - Number of players\n\n
+			P - Rank
+	</string>
+    
 </resources>

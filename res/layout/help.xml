@@ -2,4 +2,19 @@
 	android:id="@+id/help" android:layout_width="fill_parent"
 	android:layout_height="fill_parent" android:fillViewport="true">
 
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical" android:padding="10dip">
+
+		<TextView android:text="@string/help_title1" android:id="@+id/textView1"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+		<ImageView android:id="@+id/formulae" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:src="@drawable/formula" />
+
+		<TextView  android:text="@string/help_title2" android:id="@+id/textView2"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+
 </ScrollView>
