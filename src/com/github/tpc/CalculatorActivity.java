@@ -1,12 +1,8 @@
 package com.github.tpc;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -17,7 +13,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewSwitcher;
 
-public class CalculatorActivity extends Activity implements View.OnClickListener, ViewSwitcher.ViewFactory {
+public class CalculatorActivity extends OptionsMenuActivity implements 
+	View.OnClickListener, ViewSwitcher.ViewFactory {
     	
     EditText playersCount;
     EditText buyIn;
@@ -118,25 +115,4 @@ public class CalculatorActivity extends Activity implements View.OnClickListener
         t.setTextSize(36);
         return t;	
     }
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-	    MenuInflater inflater = getMenuInflater();
-	    inflater.inflate(R.menu.menu, menu);
-	    return true;
-	}
-	
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-	    switch (item.getItemId()) {
-	    case R.id.about:
-	    	startActivity(new Intent(this, AboutActivity.class));
-	        return true;
-	    case R.id.help:
-	    	startActivity(new Intent(this, HelpActivity.class));
-	        return true;
-	    default:
-	        return super.onOptionsItemSelected(item);
-	    }
-	}
 }

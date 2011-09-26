@@ -1,6 +1,5 @@
 package com.github.tpc;
 
-import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -9,7 +8,7 @@ import android.widget.TableRow;
 import android.widget.TableRow.LayoutParams;
 import android.widget.TextView;
 
-public class ScoreBoardActivity extends Activity {
+public class ScoreBoardActivity extends OptionsMenuActivity {
 	
 	private final LayoutParams LAYOUT_PARAMS = new LayoutParams(
 			LayoutParams.FILL_PARENT,
